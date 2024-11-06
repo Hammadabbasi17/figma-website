@@ -8,7 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+  
+      fontFamily:{
+        libre:["Libre Bodoni", "serif"],
+        Rye:["Rye", "serif"],
+      },
       colors: {
+        mehndi:"#A29875",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
